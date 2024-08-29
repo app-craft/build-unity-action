@@ -41,6 +41,9 @@ inputs:
   build-method-args:
     description: Custom arguments for build method
     required: false
+  build-options:
+    description: List of additional BuildOptions. For example, `SymlinkLibraries, CompressWithLz4HC`. Only for default build method.
+    required: false
 outputs:
   build-path:
     description: Path to build output
